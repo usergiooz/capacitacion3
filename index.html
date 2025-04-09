@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 3: Uso de la Gorra Inteligente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.8;
+      padding: 20px;
+      background: url('https://img.freepik.com/vector-premium/ilustracion-vectorial-icono-conductor-dibujos-animados-profesional_1322206-71759.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+    }
+    h1, h2, h3 {
+      color: #ffe600;
+    }
+    .section {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .question {
+      margin-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      border-radius: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ffe600;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #ffd000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Módulo 3: Uso de la Gorra Inteligente – Tecnología al servicio de tu seguridad</h1>
+
+  <div class="section">
+    <h2>¿Qué hace la gorra? ¿Cómo funciona el sensor?</h2>
+    <p>La gorra inteligente integra un sensor de inclinación <strong>SW-520</strong>, que detecta los movimientos de la cabeza del conductor. Si la cabeza se inclina hacia adelante o hacia los lados, el sensor reconoce estos cambios de ángulo y activa mecanismos de alerta. Su objetivo es identificar signos de fatiga o somnolencia para evitar accidentes.</p>
+  </div>
+
+  <div class="section">
+    <h2>¿Qué es el cabeceo y cómo lo detecta el dispositivo?</h2>
+    <p>El cabeceo es el movimiento involuntario de la cabeza cuando una persona se está quedando dormida. Esta gorra detecta:</p>
+    <ul>
+      <li>Cabeceo repetitivo o inclinaciones bruscas.</li>
+      <li>Si la cabeza permanece en posición baja por más de 4 a 5 segundos.</li>
+    </ul>
+    <p>Cuando detecta estas señales, la gorra:</p>
+    <ul>
+      <li>Emite una <strong>alarma sonora</strong> (pitido) para despertar al conductor.</li>
+      <li>Envía una <strong>notificación a la app</strong> con una lista de lugares cercanos para descansar: hoteles, paradores o estaciones de servicio.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>¿Cómo se configura y calibra la gorra?</h2>
+    <p>No necesitas configurar ni calibrar nada. La gorra ya viene <strong>lista para usar</strong>:</p>
+    <ul>
+      <li>Se enciende antes del viaje.</li>
+      <li>Se ajusta cómodamente a la cabeza.</li>
+      <li>Funciona de forma automática sin intervención del usuario.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Uso de la app: alerta + sugerencias</h2>
+    <p>La aplicación asociada con la gorra cumple dos funciones clave cuando se detecta fatiga:</p>
+    <ul>
+      <li>Muestra una <strong>alerta visual</strong> en el celular.</li>
+      <li>Ofrece <strong>sugerencias de hoteles o zonas de descanso</strong> cercanas, utilizando la ubicación GPS del dispositivo.</li>
+      <li>Permite marcar y guardar lugares favoritos o habituales.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Mantenimiento del dispositivo</h2>
+    <ul>
+      <li><strong>No mojar.</strong> El dispositivo es electrónico, debe mantenerse seco en todo momento.</li>
+      <li><strong>Mantenerlo dentro del vehículo</strong>, cerca del celular, para asegurar la conectividad con la app.</li>
+      <li><strong>Limpiar con paño seco.</strong> No usar productos químicos o agua directa.</li>
+      <li><strong>Cargar con regularidad</strong> para evitar cortes durante el uso.</li>
+    </ul>
+  </div>
+
+  <h2>Evaluación del módulo</h2>
+  <form id="quizForm">
+    <div class="question">
+      <p>1. ¿Qué tipo de sensor usa la gorra inteligente?</p>
+      <label><input type="checkbox" name="q1" value="1"> Sensor de inclinación SW-520</label><br>
+      <label><input type="checkbox" name="q1" value="0"> Sensor de temperatura</label><br>
+      <label><input type="checkbox" name="q1" value="0"> Sensor de movimiento PIR</label>
+    </div>
+
+    <div class="question">
+      <p>2. ¿Qué hace la gorra cuando detecta cabeceo prolongado?</p>
+      <label><input type="checkbox" name="q2" value="1"> Emite un pitido y muestra hoteles en la app</label><br>
+      <label><input type="checkbox" name="q2" value="0"> Se apaga automáticamente</label><br>
+      <label><input type="checkbox" name="q2" value="0"> Activa el aire acondicionado</label>
+    </div>
+
+    <div class="question">
+      <p>3. ¿Es necesario calibrar manualmente la gorra?</p>
+      <label><input type="checkbox" name="q3" value="0"> Sí, antes de cada viaje</label><br>
+      <label><input type="checkbox" name="q3" value="1"> No, ya viene calibrada</label><br>
+      <label><input type="checkbox" name="q3" value="0"> Solo si cambia de usuario</label>
+    </div>
+
+    <div class="question">
+      <p>4. ¿Qué tipo de lugares sugiere la app?</p>
+      <label><input type="checkbox" name="q4" value="1"> Hoteles y paradores cercanos</label><br>
+      <label><input type="checkbox" name="q4" value="0"> Centros comerciales</label><br>
+      <label><input type="checkbox" name="q4" value="0"> Museos</label>
+    </div>
+
+    <div class="question">
+      <p>5. ¿Cuál es una recomendación correcta de mantenimiento?</p>
+      <label><input type="checkbox" name="q5" value="1"> Guardarla cerca del celular y no mojarla</label><br>
+      <label><input type="checkbox" name="q5" value="0"> Limpiarla con alcohol</label><br>
+      <label><input type="checkbox" name="q5" value="0"> Dejarla bajo el sol al terminar el viaje</label>
+    </div>
+
+    <button type="button" onclick="calcularPuntaje()">Enviar respuestas</button>
+  </form>
+
+  <h3 id="resultado"></h3>
+
+  <script>
+    function calcularPuntaje() {
+      const form = document.getElementById('quizForm');
+      const data = new FormData(form);
+      let score = 0;
+      for (let value of data.values()) {
+        score += parseInt(value);
+      }
+      let mensaje = `Tu puntaje es: ${score} de 5. `;
+      if (score >= 3) {
+        mensaje += '¡Felicidades, aprobaste el módulo! ✅';
+      } else {
+        mensaje += 'No aprobaste, vuelve a repasar el contenido. ❌';
+      }
+      document.getElementById('resultado').textContent = mensaje;
+    }
+  </script>
+
+</body>
+</html>
